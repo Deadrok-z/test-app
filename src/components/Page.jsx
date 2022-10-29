@@ -6,7 +6,7 @@ const Page = () => {
     return (
         <>
             <header>
-                <NavLink to='/'>Home</NavLink>
+                <NavLink end to='/'>Home</NavLink>
                 <NavLink to='/news'>News</NavLink>
             </header>
             
