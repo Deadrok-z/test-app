@@ -21,12 +21,14 @@ header {
   padding: 2rem 0;
   text-align: center;
 }
-header > a {
+
+header>a {
   color: white;
   text-decoration: none;
   padding: 0 1rem;
 }
-header > a:hover {
+
+header>a:hover {
   text-decoration: underline;
 }
 
@@ -36,10 +38,33 @@ h1 {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   padding-left: 2rem;
   padding-right: 2rem;
   margin: 0 auto;
+}
+
+.newsContainer {
+  max-width: 1200px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 2rem auto;
+  border: #2C2C32 solid 1px;
+  border-radius: 25px;
+  background-color: #67676a;
+  color: white;
+}
+
+.hContainer {
+  display: flex;
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
+.imgContainer {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 25px;
+  margin-right: 5.5rem;
 }
 
 main {
@@ -57,5 +82,5 @@ footer {
   background-color: var(--color-bg);
   padding: 2rem 0;
   text-align: center;
-  color:white;
+  color: white;
 }

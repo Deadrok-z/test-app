@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div className="sec__Home">
+        <>
             <h1> Home </h1>
             <h2> Тестовое задание React </h2>
             <p>Проверяем начальные навыки: react, react-router</p>
@@ -17,7 +17,7 @@ const Home = () => {
                 <li>Новости (/news)</li>
             </ul>
             <p>Дизайн не важен. Для новостей сделать свою компоненту.</p>
-        </div>
+        </>
     )
 }
 
